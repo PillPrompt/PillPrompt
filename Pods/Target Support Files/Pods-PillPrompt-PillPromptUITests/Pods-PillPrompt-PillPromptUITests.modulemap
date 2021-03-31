@@ -1,0 +1,6 @@
+framework module Pods_PillPrompt_PillPromptUITests {
+  umbrella header "Pods-PillPrompt-PillPromptUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

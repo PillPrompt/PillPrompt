@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF48786C13C19E68BC97ABA /* Pods_PillPromptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D8B8F699E0B633C0C49B8 /* Pods_PillPromptTests.framework */; };
+		A1D93CBF3DFD1DFE362F4A52 /* Pods_PillPrompt_PillPromptUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C81D3C4DBE6BFFCA048B5DA /* Pods_PillPrompt_PillPromptUITests.framework */; };
+		BB42FBB876BBF6652295DFB1 /* Pods_PillPrompt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42579108964B1F4EEC456F0 /* Pods_PillPrompt.framework */; };
+		D46D8FF22615243F00B5E7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D8FF12615243F00B5E7C1 /* AppDelegate.swift */; };
+		D46D8FF42615243F00B5E7C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D8FF32615243F00B5E7C1 /* SceneDelegate.swift */; };
+		D46D8FF62615243F00B5E7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D8FF52615243F00B5E7C1 /* ViewController.swift */; };
+		D46D8FF92615243F00B5E7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46D8FF72615243F00B5E7C1 /* Main.storyboard */; };
+		D46D8FFB2615244000B5E7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46D8FFA2615244000B5E7C1 /* Assets.xcassets */; };
+		D46D8FFE2615244000B5E7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46D8FFC2615244000B5E7C1 /* LaunchScreen.storyboard */; };
+		D46D90092615244100B5E7C1 /* PillPromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D90082615244100B5E7C1 /* PillPromptTests.swift */; };
+		D46D90142615244100B5E7C1 /* PillPromptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D90132615244100B5E7C1 /* PillPromptUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D46D90052615244100B5E7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46D8FE62615243F00B5E7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46D8FED2615243F00B5E7C1;
+			remoteInfo = PillPrompt;
+		};
+		D46D90102615244100B5E7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46D8FE62615243F00B5E7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46D8FED2615243F00B5E7C1;
+			remoteInfo = PillPrompt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C81D3C4DBE6BFFCA048B5DA /* Pods_PillPrompt_PillPromptUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillPrompt_PillPromptUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432D8B8F699E0B633C0C49B8 /* Pods_PillPromptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillPromptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D08333C46405646A2EEF14 /* Pods-PillPrompt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt.debug.xcconfig"; path = "Target Support Files/Pods-PillPrompt/Pods-PillPrompt.debug.xcconfig"; sourceTree = "<group>"; };
+		55A5637FCB64C004C6441174 /* Pods-PillPromptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPromptTests.release.xcconfig"; path = "Target Support Files/Pods-PillPromptTests/Pods-PillPromptTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8D4E88C1CB52C61DC4E0F98 /* Pods-PillPrompt-PillPromptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt-PillPromptUITests.release.xcconfig"; path = "Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE75BF738B0C64DFB4B1C9F /* Pods-PillPromptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPromptTests.debug.xcconfig"; path = "Target Support Files/Pods-PillPromptTests/Pods-PillPromptTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CECA6CB7873A1577BA0C5731 /* Pods-PillPrompt-PillPromptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt-PillPromptUITests.debug.xcconfig"; path = "Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D42579108964B1F4EEC456F0 /* Pods_PillPrompt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillPrompt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46D8FEE2615243F00B5E7C1 /* PillPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46D8FF12615243F00B5E7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46D8FF32615243F00B5E7C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D46D8FF52615243F00B5E7C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D46D8FF82615243F00B5E7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46D8FFA2615244000B5E7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46D8FFD2615244000B5E7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46D8FFF2615244000B5E7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46D90042615244100B5E7C1 /* PillPromptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillPromptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46D90082615244100B5E7C1 /* PillPromptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPromptTests.swift; sourceTree = "<group>"; };
+		D46D900A2615244100B5E7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46D900F2615244100B5E7C1 /* PillPromptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillPromptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46D90132615244100B5E7C1 /* PillPromptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPromptUITests.swift; sourceTree = "<group>"; };
+		D46D90152615244100B5E7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08402C46AACBA5A7D616B0A /* Pods-PillPrompt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt.release.xcconfig"; path = "Target Support Files/Pods-PillPrompt/Pods-PillPrompt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46D8FEB2615243F00B5E7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB42FBB876BBF6652295DFB1 /* Pods_PillPrompt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D90012615244100B5E7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF48786C13C19E68BC97ABA /* Pods_PillPromptTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D900C2615244100B5E7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D93CBF3DFD1DFE362F4A52 /* Pods_PillPrompt_PillPromptUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D9BF11905946B4426CA62D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42579108964B1F4EEC456F0 /* Pods_PillPrompt.framework */,
+				0C81D3C4DBE6BFFCA048B5DA /* Pods_PillPrompt_PillPromptUITests.framework */,
+				432D8B8F699E0B633C0C49B8 /* Pods_PillPromptTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E355F84FF05E3F4EB446DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49D08333C46405646A2EEF14 /* Pods-PillPrompt.debug.xcconfig */,
+				E08402C46AACBA5A7D616B0A /* Pods-PillPrompt.release.xcconfig */,
+				CECA6CB7873A1577BA0C5731 /* Pods-PillPrompt-PillPromptUITests.debug.xcconfig */,
+				C8D4E88C1CB52C61DC4E0F98 /* Pods-PillPrompt-PillPromptUITests.release.xcconfig */,
+				CDE75BF738B0C64DFB4B1C9F /* Pods-PillPromptTests.debug.xcconfig */,
+				55A5637FCB64C004C6441174 /* Pods-PillPromptTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D46D8FE52615243F00B5E7C1 = {
+			isa = PBXGroup;
+			children = (
+				D46D8FF02615243F00B5E7C1 /* PillPrompt */,
+				D46D90072615244100B5E7C1 /* PillPromptTests */,
+				D46D90122615244100B5E7C1 /* PillPromptUITests */,
+				D46D8FEF2615243F00B5E7C1 /* Products */,
+				71E355F84FF05E3F4EB446DA /* Pods */,
+				36D9BF11905946B4426CA62D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D46D8FEF2615243F00B5E7C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46D8FEE2615243F00B5E7C1 /* PillPrompt.app */,
+				D46D90042615244100B5E7C1 /* PillPromptTests.xctest */,
+				D46D900F2615244100B5E7C1 /* PillPromptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46D8FF02615243F00B5E7C1 /* PillPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				D46D8FF12615243F00B5E7C1 /* AppDelegate.swift */,
+				D46D8FF32615243F00B5E7C1 /* SceneDelegate.swift */,
+				D46D8FF52615243F00B5E7C1 /* ViewController.swift */,
+				D46D8FF72615243F00B5E7C1 /* Main.storyboard */,
+				D46D8FFA2615244000B5E7C1 /* Assets.xcassets */,
+				D46D8FFC2615244000B5E7C1 /* LaunchScreen.storyboard */,
+				D46D8FFF2615244000B5E7C1 /* Info.plist */,
+			);
+			path = PillPrompt;
+			sourceTree = "<group>";
+		};
+		D46D90072615244100B5E7C1 /* PillPromptTests */ = {
+			isa = PBXGroup;
+			children = (
+				D46D90082615244100B5E7C1 /* PillPromptTests.swift */,
+				D46D900A2615244100B5E7C1 /* Info.plist */,
+			);
+			path = PillPromptTests;
+			sourceTree = "<group>";
+		};
+		D46D90122615244100B5E7C1 /* PillPromptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D46D90132615244100B5E7C1 /* PillPromptUITests.swift */,
+				D46D90152615244100B5E7C1 /* Info.plist */,
+			);
+			path = PillPromptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46D8FED2615243F00B5E7C1 /* PillPrompt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46D90182615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPrompt" */;
+			buildPhases = (
+				ACCC7E3E3A48C608AC9D9769 /* [CP] Check Pods Manifest.lock */,
+				D46D8FEA2615243F00B5E7C1 /* Sources */,
+				D46D8FEB2615243F00B5E7C1 /* Frameworks */,
+				D46D8FEC2615243F00B5E7C1 /* Resources */,
+				0229D4A78E518001B0B0A5BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillPrompt;
+			productName = PillPrompt;
+			productReference = D46D8FEE2615243F00B5E7C1 /* PillPrompt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D46D90032615244100B5E7C1 /* PillPromptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46D901B2615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPromptTests" */;
+			buildPhases = (
+				5137756C630F7C0FC822159D /* [CP] Check Pods Manifest.lock */,
+				D46D90002615244100B5E7C1 /* Sources */,
+				D46D90012615244100B5E7C1 /* Frameworks */,
+				D46D90022615244100B5E7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46D90062615244100B5E7C1 /* PBXTargetDependency */,
+			);
+			name = PillPromptTests;
+			productName = PillPromptTests;
+			productReference = D46D90042615244100B5E7C1 /* PillPromptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D46D900E2615244100B5E7C1 /* PillPromptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46D901E2615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPromptUITests" */;
+			buildPhases = (
+				7E4C45A98CD9371DAD8AA2D1 /* [CP] Check Pods Manifest.lock */,
+				D46D900B2615244100B5E7C1 /* Sources */,
+				D46D900C2615244100B5E7C1 /* Frameworks */,
+				D46D900D2615244100B5E7C1 /* Resources */,
+				DA06A4B30FEAD6C33E437B16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46D90112615244100B5E7C1 /* PBXTargetDependency */,
+			);
+			name = PillPromptUITests;
+			productName = PillPromptUITests;
+			productReference = D46D900F2615244100B5E7C1 /* PillPromptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46D8FE62615243F00B5E7C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D46D8FED2615243F00B5E7C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D46D90032615244100B5E7C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D46D8FED2615243F00B5E7C1;
+					};
+					D46D900E2615244100B5E7C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D46D8FED2615243F00B5E7C1;
+					};
+				};
+			};
+			buildConfigurationList = D46D8FE92615243F00B5E7C1 /* Build configuration list for PBXProject "PillPrompt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46D8FE52615243F00B5E7C1;
+			productRefGroup = D46D8FEF2615243F00B5E7C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46D8FED2615243F00B5E7C1 /* PillPrompt */,
+				D46D90032615244100B5E7C1 /* PillPromptTests */,
+				D46D900E2615244100B5E7C1 /* PillPromptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46D8FEC2615243F00B5E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46D8FFE2615244000B5E7C1 /* LaunchScreen.storyboard in Resources */,
+				D46D8FFB2615244000B5E7C1 /* Assets.xcassets in Resources */,
+				D46D8FF92615243F00B5E7C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D90022615244100B5E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D900D2615244100B5E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0229D4A78E518001B0B0A5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PillPrompt/Pods-PillPrompt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PillPrompt/Pods-PillPrompt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PillPrompt/Pods-PillPrompt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5137756C630F7C0FC822159D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PillPromptTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4C45A98CD9371DAD8AA2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PillPrompt-PillPromptUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCC7E3E3A48C608AC9D9769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PillPrompt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA06A4B30FEAD6C33E437B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46D8FEA2615243F00B5E7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46D8FF62615243F00B5E7C1 /* ViewController.swift in Sources */,
+				D46D8FF22615243F00B5E7C1 /* AppDelegate.swift in Sources */,
+				D46D8FF42615243F00B5E7C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D90002615244100B5E7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46D90092615244100B5E7C1 /* PillPromptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46D900B2615244100B5E7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46D90142615244100B5E7C1 /* PillPromptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D46D90062615244100B5E7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46D8FED2615243F00B5E7C1 /* PillPrompt */;
+			targetProxy = D46D90052615244100B5E7C1 /* PBXContainerItemProxy */;
+		};
+		D46D90112615244100B5E7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46D8FED2615243F00B5E7C1 /* PillPrompt */;
+			targetProxy = D46D90102615244100B5E7C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D46D8FF72615243F00B5E7C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46D8FF82615243F00B5E7C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46D8FFC2615244000B5E7C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46D8FFD2615244000B5E7C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46D90162615244100B5E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46D90172615244100B5E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46D90192615244100B5E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D08333C46405646A2EEF14 /* Pods-PillPrompt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPrompt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPrompt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46D901A2615244100B5E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08402C46AACBA5A7D616B0A /* Pods-PillPrompt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPrompt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPrompt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D46D901C2615244100B5E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE75BF738B0C64DFB4B1C9F /* Pods-PillPromptTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPromptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPromptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillPrompt.app/PillPrompt";
+			};
+			name = Debug;
+		};
+		D46D901D2615244100B5E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A5637FCB64C004C6441174 /* Pods-PillPromptTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPromptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPromptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillPrompt.app/PillPrompt";
+			};
+			name = Release;
+		};
+		D46D901F2615244100B5E7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECA6CB7873A1577BA0C5731 /* Pods-PillPrompt-PillPromptUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPromptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPromptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPrompt;
+			};
+			name = Debug;
+		};
+		D46D90202615244100B5E7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D4E88C1CB52C61DC4E0F98 /* Pods-PillPrompt-PillPromptUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PillPromptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PillPrompt.PillPromptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPrompt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46D8FE92615243F00B5E7C1 /* Build configuration list for PBXProject "PillPrompt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46D90162615244100B5E7C1 /* Debug */,
+				D46D90172615244100B5E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46D90182615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPrompt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46D90192615244100B5E7C1 /* Debug */,
+				D46D901A2615244100B5E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46D901B2615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPromptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46D901C2615244100B5E7C1 /* Debug */,
+				D46D901D2615244100B5E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46D901E2615244100B5E7C1 /* Build configuration list for PBXNativeTarget "PillPromptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46D901F2615244100B5E7C1 /* Debug */,
+				D46D90202615244100B5E7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46D8FE62615243F00B5E7C1 /* Project object */;
+}
