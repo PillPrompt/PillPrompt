@@ -78,3 +78,8 @@ An app to manage personal medication
        - (Read/GET) Query clicked on medication
        - (Delete) Delete clicked on medication
        - (Update/PUT) Update medication information
+
+### Build Progress
+## Unit 10
+
+<img src='http://g.recordit.co/rnQCpP6gAc.gif' title='Build Progress Unit 10' width='' alt='Video Walkthrough' />
