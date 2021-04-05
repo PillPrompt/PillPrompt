@@ -10,9 +10,9 @@ An app to manage personal medication
 ## User Stories
 
 ### Required
-- Users can create an account
-- Users can sign in
-- Users can log out
+- [x] Users can create an account
+- [x] Users can sign in
+- [x] Users can log out
 - Users can add a medication to thei list
 - Users can see a list of their medication 
 ### Optional
