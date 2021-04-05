@@ -13,15 +13,15 @@ An app to manage personal medication
 - [x] Users can create an account
 - [x] Users can sign in
 - [x] Users can log out
-- Users can add a medication to thei list
-- Users can see a list of their medication 
+- [ ] Users can add a medication to thei list
+- [ ] Users can see a list of their medication 
 ### Optional
-- Users can set a time when they have to take their medication
-- Users get push notifications when they have to take their pill
-- Users can set how many pills they have remaining
-- Users can see pharmacies in their area
-- Users can share a list of their medication
-- Users can set a profile picture
+- [ ] Users can set a time when they have to take their medication
+- [ ] Users get push notifications when they have to take their pill
+- [ ] Users can set how many pills they have remaining
+- [ ] Users can see pharmacies in their area
+- [ ] Users can share a list of their medication
+- [ ] Users can set a profile picture
 ## Screens
 - Load
 - Login
