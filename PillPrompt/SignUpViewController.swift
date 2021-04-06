@@ -27,7 +27,7 @@ class SignUpViewController: UIViewController {
         
         user.signUpInBackground { (success, error) in
             if success {
-                self.performSegue(withIdentifier: "loginSegue2", sender: nil)
+                self.performSegue(withIdentifier: "signUpSegue", sender: nil)
                 self.usernameField.text = nil
                 self.passwordField.text = nil
                 self.nameField.text = nil
