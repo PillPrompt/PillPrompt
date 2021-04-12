@@ -65,11 +65,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PillPrompt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db5-sH-8bg">
-                                <rect key="frame" x="84.5" y="171" width="245" height="57"/>
-                                <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <rect key="frame" x="63.5" y="137" width="287" height="57"/>
+                                <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="50"/>
+                                <color key="textColor" red="0.03662493512347028" green="0.87295062725360573" blue="0.81841752912614729" alpha="0.87059726844839502" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" systemColor="linkColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="27373-7-pills-transparent-image" translatesAutoresizingMaskIntoConstraints="NO" id="u3M-3R-E6f">
+                                <rect key="frame" x="165" y="202" width="84" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YvI-dV-dvF"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -77,6 +81,7 @@
                         <constraints>
                             <constraint firstItem="WrX-3w-m3l" firstAttribute="leading" secondItem="YvI-dV-dvF" secondAttribute="leading" constant="96" id="0Su-m7-m5E"/>
                             <constraint firstItem="k2e-TL-AfC" firstAttribute="leading" secondItem="YvI-dV-dvF" secondAttribute="leading" constant="60" id="4LD-0e-QsU"/>
+                            <constraint firstItem="7AF-A1-vBB" firstAttribute="top" secondItem="db5-sH-8bg" secondAttribute="bottom" constant="124" id="5h9-eq-VSP"/>
                             <constraint firstItem="xLu-50-bMO" firstAttribute="centerX" secondItem="db5-sH-8bg" secondAttribute="centerX" id="5sT-ox-zbk"/>
                             <constraint firstItem="WrX-3w-m3l" firstAttribute="top" secondItem="s06-b5-yHf" secondAttribute="bottom" constant="61" id="7kw-QB-wm6"/>
                             <constraint firstItem="81K-2e-t83" firstAttribute="centerX" secondItem="aM2-GV-Usm" secondAttribute="centerX" id="7zx-wF-eQB"/>
@@ -90,7 +95,6 @@
                             <constraint firstItem="YvI-dV-dvF" firstAttribute="trailing" secondItem="xLu-50-bMO" secondAttribute="trailing" constant="60" id="nS2-Hx-a1X"/>
                             <constraint firstItem="xLu-50-bMO" firstAttribute="leading" secondItem="YvI-dV-dvF" secondAttribute="leading" constant="60" id="oKG-c2-QLD"/>
                             <constraint firstItem="81K-2e-t83" firstAttribute="top" secondItem="WrX-3w-m3l" secondAttribute="bottom" constant="25" id="qLC-Mj-URC"/>
-                            <constraint firstItem="7AF-A1-vBB" firstAttribute="top" secondItem="db5-sH-8bg" secondAttribute="bottom" constant="90" id="riT-Nk-D9f"/>
                             <constraint firstItem="7AF-A1-vBB" firstAttribute="leading" secondItem="YvI-dV-dvF" secondAttribute="leading" constant="60" id="uJk-xQ-RjU"/>
                             <constraint firstItem="o6y-58-UtE" firstAttribute="top" secondItem="s06-b5-yHf" secondAttribute="bottom" constant="61" id="wuI-dl-kcp"/>
                             <constraint firstItem="xLu-50-bMO" firstAttribute="top" secondItem="7AF-A1-vBB" secondAttribute="bottom" constant="16" id="xpa-ll-L7L"/>
@@ -105,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aB7-gd-yna" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-759" y="-255"/>
+            <point key="canvasLocation" x="-759.4202898550725" y="-255.13392857142856"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="tLK-8o-k4J">
@@ -129,10 +133,9 @@
             </objects>
             <point key="canvasLocation" x="2621.739130434783" y="461.38392857142856"/>
         </scene>
-        <!--PillPrompt-->
+        <!--Active Medications-->
         <scene sceneID="7LZ-LS-ouE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="abd-bQ-Xnb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="teC-QU-B2N" customClass="MedicationViewController" customModule="PillPrompt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r6s-qr-UqH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -171,7 +174,7 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M:W:F" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viM-2Z-RIf">
                                                     <rect key="frame" x="180" y="40" width="49" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -183,7 +186,7 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa3-Cu-TV8">
                                                     <rect key="frame" x="218" y="68.5" width="11" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -216,7 +219,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="PillPrompt" id="9fr-f2-04U">
+                    <navigationItem key="navigationItem" title="Active Medications" id="9fr-f2-04U">
                         <barButtonItem key="rightBarButtonItem" title="add" image="plus" catalog="system" id="8Nx-Ul-Xyy">
                             <connections>
                                 <segue destination="PNt-gU-2Oj" kind="presentation" id="5Vf-Wu-vuq"/>
@@ -228,6 +231,7 @@
                         <outlet property="tableView" destination="vEm-WJ-xfv" id="s5g-Ky-9dB"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abd-bQ-Xnb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2621.739130434783" y="-255.13392857142856"/>
         </scene>
@@ -587,7 +591,6 @@
         <!--Profile-->
         <scene sceneID="idJ-PG-5Ov">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eaB-nn-TS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6tE-Cj-PTa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" selectedImage="person.fill" id="kSd-Ve-MFD"/>
                     <toolbarItems/>
@@ -600,14 +603,16 @@
                         <segue destination="dzS-hn-ybM" kind="relationship" relationship="rootViewController" id="jGI-px-Hod"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaB-nn-TS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1711.5942028985507" y="461.38392857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AyV-Sy-xLW"/>
+        <segue reference="0qQ-xS-sNh"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="27373-7-pills-transparent-image" width="3500" height="2464"/>
         <image name="cross.case.fill" catalog="system" width="128" height="98"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
