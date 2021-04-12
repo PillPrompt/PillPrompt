@@ -13,7 +13,7 @@ An app to manage personal medication
 - [x] Users can create an account
 - [x] Users can sign in
 - [x] Users can log out
-- [ ] Users can add a medication to thei list
+- [x] Users can add a medication to their list
 - [ ] Users can see a list of their medication 
 ### Optional
 - [ ] Users can set a time when they have to take their medication
@@ -83,3 +83,9 @@ An app to manage personal medication
 ## Unit 10
 
 <img src='http://g.recordit.co/rnQCpP6gAc.gif' title='Build Progress Unit 10' width='' alt='Video Walkthrough' />
+
+## Unit 11
+
+<img src='http://g.recordit.co/Axt9dznLnE.gif' title='Build Progress Unit 10' width='' alt='Video Walkthrough' />
+
+
