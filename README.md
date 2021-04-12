@@ -13,7 +13,7 @@ An app to manage personal medication
 - [x] Users can create an account
 - [x] Users can sign in
 - [x] Users can log out
-- [x] Users can add a medication to thei list
+- [x] Users can add a medication to their list
 - [ ] Users can see a list of their medication 
 ### Optional
 - [ ] Users can set a time when they have to take their medication
