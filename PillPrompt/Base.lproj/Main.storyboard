@@ -114,6 +114,33 @@
                     <view key="view" contentMode="scaleToFill" id="Xl0-bM-Frl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-9R-197">
+                                <rect key="frame" x="85" y="418" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mf4-5H-YiK">
+                                <rect key="frame" x="85" y="468" width="83" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-yj-PsT">
+                                <rect key="frame" x="85" y="509" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="27373-7-pills-transparent-image" translatesAutoresizingMaskIntoConstraints="NO" id="fzj-a0-kSD">
+                                <rect key="frame" x="87" y="164" width="240" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="q8a-fw-xWH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -132,7 +159,6 @@
         <!--PillPrompt-->
         <scene sceneID="7LZ-LS-ouE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="abd-bQ-Xnb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="teC-QU-B2N" customClass="MedicationViewController" customModule="PillPrompt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r6s-qr-UqH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -228,6 +254,7 @@
                         <outlet property="tableView" destination="vEm-WJ-xfv" id="s5g-Ky-9dB"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abd-bQ-Xnb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2621.739130434783" y="-255.13392857142856"/>
         </scene>
@@ -587,7 +614,6 @@
         <!--Profile-->
         <scene sceneID="idJ-PG-5Ov">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eaB-nn-TS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6tE-Cj-PTa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" selectedImage="person.fill" id="kSd-Ve-MFD"/>
                     <toolbarItems/>
@@ -600,6 +626,7 @@
                         <segue destination="dzS-hn-ybM" kind="relationship" relationship="rootViewController" id="jGI-px-Hod"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaB-nn-TS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1711.5942028985507" y="461.38392857142856"/>
         </scene>
@@ -608,6 +635,7 @@
         <segue reference="AyV-Sy-xLW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="27373-7-pills-transparent-image" width="3500" height="2464"/>
         <image name="cross.case.fill" catalog="system" width="128" height="98"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
