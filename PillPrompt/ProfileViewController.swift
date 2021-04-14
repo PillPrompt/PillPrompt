@@ -32,7 +32,6 @@ class ProfileViewController: UIViewController {
         
        // self.dismiss(animated: false, completion: nil)
         //self.performSegue(withIdentifier: "logoutSegue", sender: nil)
-
     }
     
     /*

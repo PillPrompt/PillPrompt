@@ -25,25 +25,20 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-    
-//        let medications = (PFUser.current()!["medication"] as? [PFObject]) ?? []
-//        self.meds = medications
-//        self.tableView.reloadData()
-        
+            
         let query = PFQuery(className: "Medication")
         query.includeKey("author")
        
         print("ObjectId: \(PFUser.current()!.objectId!)")
-        //query.whereKey("author", equalTo: PFUser.current()!.objectId!)
-
+        
+        query.whereKey("author", equalTo: PFUser.current() as Any)
         query.findObjectsInBackground { (medications, error) in
             if medications != nil {
                 self.meds = medications!
                 self.tableView.reloadData()
             }
         }
-        
+            
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
