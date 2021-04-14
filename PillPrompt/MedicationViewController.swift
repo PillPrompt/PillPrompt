@@ -21,6 +21,7 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         tableView.dataSource = self
         tableView.delegate = self
         // Do any additional setup after loading the view.
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -37,6 +38,15 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         print("ObjectId: \(PFUser.current()!.objectId!)")
         //query.whereKey("author", equalTo: PFUser.current()!.objectId!)
 
+//        query.findObjectsInBackground { (medications, error) in
+//            if medications != nil {
+//                self.meds = medications!
+//                self.tableView.reloadData()
+//            }
+//        }
+        
+        
+        query.whereKey("author", equalTo: PFUser.current() as Any)
         query.findObjectsInBackground { (medications, error) in
             if medications != nil {
                 self.meds = medications!
@@ -47,6 +57,7 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         print("Count: \(meds.count)")
         return meds.count
     }
