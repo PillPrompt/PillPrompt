@@ -7,6 +7,11 @@
 ## General Idea
 An app to manage personal medication
 
+## Wireframes
+
+![image](https://user-images.githubusercontent.com/54676798/115627024-564f5580-a2cc-11eb-8094-0283e68888d9.png)
+
+
 ## User Stories
 
 ### Required
