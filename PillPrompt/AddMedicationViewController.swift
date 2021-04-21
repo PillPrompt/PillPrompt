@@ -10,7 +10,6 @@ import Parse
 
 class AddMedicationViewController: UIViewController {
     
-    
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var freqencyField: UILabel!
     @IBOutlet weak var stepper: UIStepper!
@@ -21,7 +20,6 @@ class AddMedicationViewController: UIViewController {
     @IBOutlet weak var thursdaySwitch: UISwitch!
     @IBOutlet weak var fridaySwitch: UISwitch!
     @IBOutlet weak var saturdaySwitch: UISwitch!
-    
     
     @IBAction func onSubmit(_ sender: Any) {
         let medication = PFObject(className: "Medication")
@@ -67,7 +65,6 @@ class AddMedicationViewController: UIViewController {
         }
     }
     
-    
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
         freqencyField.text = Int(sender.value).description
     }
@@ -90,16 +87,4 @@ class AddMedicationViewController: UIViewController {
         saturdaySwitch.setOn(false, animated:true)
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -10,7 +10,6 @@ import Parse
 
 class MedicationViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-
     @IBOutlet weak var tableView: UITableView!
     
     var meds = [PFObject]()
@@ -38,7 +37,6 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
                 self.tableView.reloadData()
             }
         }
-            
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -58,11 +56,6 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         return cell
     }
     
-    
-   
-
- 
-
     /*
     // MARK: - Navigation
 
