@@ -14,7 +14,7 @@ An app to manage personal medication
 - [x] Users can sign in
 - [x] Users can log out
 - [x] Users can add a medication to their list
-- [ ] Users can see a list of their medication 
+- [x] Users can see a list of their medication 
 ### Optional
 - [ ] Users can set a time when they have to take their medication
 - [ ] Users get push notifications when they have to take their pill
