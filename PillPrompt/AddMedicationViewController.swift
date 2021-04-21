@@ -22,6 +22,8 @@ class AddMedicationViewController: UIViewController {
     @IBOutlet weak var fridaySwitch: UISwitch!
     @IBOutlet weak var saturdaySwitch: UISwitch!
     
+    var updateDeleate: UpdateDelegate?
+    
     
     @IBAction func onSubmit(_ sender: Any) {
         let medication = PFObject(className: "Medication")
@@ -61,6 +63,7 @@ class AddMedicationViewController: UIViewController {
         PFUser.current()!.saveInBackground { (success, error) in
             if success {
                 self.dismiss(animated: true, completion: nil)
+                self.updateDeleate?.update()
             } else {
                 print("Error: \(error)")
             }

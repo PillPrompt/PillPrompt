@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AF48786C13C19E68BC97ABA /* Pods_PillPromptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D8B8F699E0B633C0C49B8 /* Pods_PillPromptTests.framework */; };
+		93676BD12627A7F1000194E8 /* UpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93676BD02627A7F1000194E8 /* UpdateDelegate.swift */; };
 		A1D93CBF3DFD1DFE362F4A52 /* Pods_PillPrompt_PillPromptUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C81D3C4DBE6BFFCA048B5DA /* Pods_PillPrompt_PillPromptUITests.framework */; };
 		BB42FBB876BBF6652295DFB1 /* Pods_PillPrompt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42579108964B1F4EEC456F0 /* Pods_PillPrompt.framework */; };
 		D46D8FF22615243F00B5E7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D8FF12615243F00B5E7C1 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 		432D8B8F699E0B633C0C49B8 /* Pods_PillPromptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillPromptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D08333C46405646A2EEF14 /* Pods-PillPrompt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt.debug.xcconfig"; path = "Target Support Files/Pods-PillPrompt/Pods-PillPrompt.debug.xcconfig"; sourceTree = "<group>"; };
 		55A5637FCB64C004C6441174 /* Pods-PillPromptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPromptTests.release.xcconfig"; path = "Target Support Files/Pods-PillPromptTests/Pods-PillPromptTests.release.xcconfig"; sourceTree = "<group>"; };
+		93676BD02627A7F1000194E8 /* UpdateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDelegate.swift; sourceTree = "<group>"; };
 		C8D4E88C1CB52C61DC4E0F98 /* Pods-PillPrompt-PillPromptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt-PillPromptUITests.release.xcconfig"; path = "Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CDE75BF738B0C64DFB4B1C9F /* Pods-PillPromptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPromptTests.debug.xcconfig"; path = "Target Support Files/Pods-PillPromptTests/Pods-PillPromptTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CECA6CB7873A1577BA0C5731 /* Pods-PillPrompt-PillPromptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillPrompt-PillPromptUITests.debug.xcconfig"; path = "Target Support Files/Pods-PillPrompt-PillPromptUITests/Pods-PillPrompt-PillPromptUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				D4FB0AFD261CDD7900192598 /* AddMedicationViewController.swift */,
 				D4FB0B0A261CFCAF00192598 /* MedicationCell.swift */,
 				D4FB0B12261D022000192598 /* MedicationViewController.swift */,
+				93676BD02627A7F1000194E8 /* UpdateDelegate.swift */,
 			);
 			path = PillPrompt;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93676BD12627A7F1000194E8 /* UpdateDelegate.swift in Sources */,
 				D4FB0AFE261CDD7900192598 /* AddMedicationViewController.swift in Sources */,
 				D4FB0AF9261CDCB400192598 /* ProfileViewController.swift in Sources */,
 				D46D9033261B90D800B5E7C1 /* LoginViewController.swift in Sources */,
