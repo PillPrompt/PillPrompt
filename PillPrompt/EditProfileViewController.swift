@@ -27,7 +27,7 @@ class EditProfileViewController: UIViewController {
                 print("profile updated")
                 self.dismiss(animated: true, completion: nil)
             } else {
-                print("Error saving comment: \(error)")
+                print("Error updating profile: \(error)")
             }
         }
         

@@ -25,6 +25,7 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        Medication.selectedMedication.removeAll()
         
     
 //        let medications = (PFUser.current()!["medication"] as? [PFObject]) ?? []
@@ -32,7 +33,7 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
 //        self.tableView.reloadData()
         
         let query = PFQuery(className: "Medication")
-        query.includeKey("author")
+        query.includeKeys(["author", "objectId"])
        
         //print("ObjectId: \(PFUser.current()!.objectId!)")
         query.whereKey("author", equalTo: PFUser.current()!)
@@ -64,7 +65,20 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //performSegue(withIdentifier: "showMedication", sender: self)
+        let med = meds[indexPath.row]
+        //print(med.objectId)
+        UserDefaults.standard.setValue(med.objectId!, forKey: "selectedMed")
+        Medication.selectedMedication.removeAll()
+        Medication.selectedMedication.append(med)
+        
         tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "showMedication", sender: self)
+    }
+    
+    struct Medication {
+        static var selectedMedication = [PFObject]()
     }
     
     

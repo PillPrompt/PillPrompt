@@ -20,6 +20,7 @@
 		D46D9033261B90D800B5E7C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D9032261B90D800B5E7C1 /* LoginViewController.swift */; };
 		D46D903B261B94B200B5E7C1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D903A261B94B200B5E7C1 /* SignUpViewController.swift */; };
 		D47DAD3126373EF1009E31A2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DAD3026373EF1009E31A2 /* EditProfileViewController.swift */; };
+		D47DAD362637478F009E31A2 /* EditMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DAD352637478F009E31A2 /* EditMedicationViewController.swift */; };
 		D4FB0AF9261CDCB400192598 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0AF8261CDCB400192598 /* ProfileViewController.swift */; };
 		D4FB0AFE261CDD7900192598 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0AFD261CDD7900192598 /* AddMedicationViewController.swift */; };
 		D4FB0B0B261CFCAF00192598 /* MedicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0B0A261CFCAF00192598 /* MedicationCell.swift */; };
@@ -68,6 +69,7 @@
 		D46D9032261B90D800B5E7C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D46D903A261B94B200B5E7C1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D47DAD3026373EF1009E31A2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		D47DAD352637478F009E31A2 /* EditMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMedicationViewController.swift; sourceTree = "<group>"; };
 		D4FB0AF8261CDCB400192598 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D4FB0AFD261CDD7900192598 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
 		D4FB0B0A261CFCAF00192598 /* MedicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationCell.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				D4FB0B0A261CFCAF00192598 /* MedicationCell.swift */,
 				D4FB0B12261D022000192598 /* MedicationViewController.swift */,
 				D47DAD3026373EF1009E31A2 /* EditProfileViewController.swift */,
+				D47DAD352637478F009E31A2 /* EditMedicationViewController.swift */,
 			);
 			path = PillPrompt;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				D46D903B261B94B200B5E7C1 /* SignUpViewController.swift in Sources */,
 				D46D8FF42615243F00B5E7C1 /* SceneDelegate.swift in Sources */,
 				D47DAD3126373EF1009E31A2 /* EditProfileViewController.swift in Sources */,
+				D47DAD362637478F009E31A2 /* EditMedicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

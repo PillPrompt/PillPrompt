@@ -42,7 +42,8 @@ class ProfileViewController: UIViewController {
         
         PFUser.logOut()
         
-        self.dismiss(animated: false, completion: nil)
+        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popToRootViewController(animated: true)
         //self.performSegue(withIdentifier: "logoutSegue", sender: nil)
 
     }
