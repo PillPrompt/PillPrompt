@@ -34,8 +34,8 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         let query = PFQuery(className: "Medication")
         query.includeKey("author")
        
-        print("ObjectId: \(PFUser.current()!.objectId!)")
-        //query.whereKey("author", equalTo: PFUser.current()!.objectId!)
+        //print("ObjectId: \(PFUser.current()!.objectId!)")
+        query.whereKey("author", equalTo: PFUser.current()!)
 
         query.findObjectsInBackground { (medications, error) in
             if medications != nil {
@@ -61,6 +61,10 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         cell.frequencyField.text = med["frequency"] as? String
 
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     
