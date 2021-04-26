@@ -613,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PillPrompt/PillPrompt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PillPrompt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -632,6 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PillPrompt/PillPrompt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PillPrompt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

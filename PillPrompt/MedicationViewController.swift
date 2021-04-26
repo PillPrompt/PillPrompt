@@ -15,12 +15,22 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
     
     var meds = [PFObject]()
     
+    let myRefreshControl = UIRefreshControl()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
         tableView.delegate = self
+        
+        tableView.refreshControl = myRefreshControl
+        myRefreshControl.addTarget(self, action: #selector(reload), for: .valueChanged)
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func reload() {
+        viewDidAppear(true)
+        self.myRefreshControl.endRefreshing()
     }
     
     override func viewDidAppear(_ animated: Bool) {
