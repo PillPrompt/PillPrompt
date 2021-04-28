@@ -99,7 +99,8 @@ An app to manage personal medication
 
 ## Updated Design and Layout
 
-<img src='http://g.recordit.co/1otLUxcnLI.gif' title='Build Progress Unit 10' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/bhT33LtjkB.gif' title='Build Progress Unit 10' width='' alt='Video Walkthrough' />
+
 
 
 
