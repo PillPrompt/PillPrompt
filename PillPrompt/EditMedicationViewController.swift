@@ -72,38 +72,6 @@ class EditMedicationViewController: UIViewController {
         
         
         
-//        let query = PFQuery(className: "Medication")
-//        query.includeKeys(["author", "objectId"])
-//
-//        //print("ObjectId: \(PFUser.current()!.objectId!)")
-//        query.whereKey("author", equalTo: PFUser.current()!)
-//
-//        query.findObjectsInBackground { (medications, error) in
-//            if medications != nil {
-//                self.meds = medications!
-//            }
-//        }
-//
-//        var index = 0
-//        for med in meds {
-//            if med.objectId! == objectID {
-//                break
-//            } else {
-//                index += 1
-//            }
-//        }
-//
-//        if index >= meds.count {
-//            print("out of range")
-//        }
-//        else {
-//            let medication = meds[index]
-//            nameField.text = medication["name"] as! String
-//            freqencyField.text = medication["frequency"] as! String
-//        }
-//
-        
-        
         // Do any additional setup after loading the view.
     }
     

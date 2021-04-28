@@ -67,7 +67,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="incorrect username or password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81K-2e-t83">
                                 <rect key="frame" x="102.5" y="629.5" width="209" height="17"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
-                                <color key="textColor" red="0.99530404809999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.73409972528014522" green="0.13856385804920576" blue="0.16197928934473999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PillPrompt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db5-sH-8bg">
@@ -272,6 +272,12 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r4-uI-7TM">
+                                                    <rect key="frame" x="346" y="43" width="34" height="15"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                                    <color key="textColor" systemColor="systemGreenColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="QcY-GT-CSl" firstAttribute="top" secondItem="LvR-e1-MX3" secondAttribute="bottom" constant="7.5" id="6hn-E1-h9B"/>
@@ -280,6 +286,8 @@
                                                 <constraint firstItem="QcY-GT-CSl" firstAttribute="leading" secondItem="ZSI-i7-Lju" secondAttribute="trailing" constant="32" id="Nk1-t6-Jxl"/>
                                                 <constraint firstItem="fa3-Cu-TV8" firstAttribute="top" secondItem="viM-2Z-RIf" secondAttribute="bottom" constant="8" symbolic="YES" id="R0G-PV-GiG"/>
                                                 <constraint firstItem="LvR-e1-MX3" firstAttribute="top" secondItem="ytV-1Y-6MU" secondAttribute="topMargin" id="THm-0h-OFg"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="3r4-uI-7TM" secondAttribute="trailing" constant="35" id="Yzg-7a-tW3"/>
+                                                <constraint firstItem="3r4-uI-7TM" firstAttribute="top" secondItem="ytV-1Y-6MU" secondAttribute="topMargin" constant="32" id="bFK-Ta-B2I"/>
                                                 <constraint firstItem="ZSI-i7-Lju" firstAttribute="leading" secondItem="ytV-1Y-6MU" secondAttribute="leadingMargin" id="caq-I0-r1f"/>
                                                 <constraint firstItem="nDf-Yq-SJg" firstAttribute="top" secondItem="QcY-GT-CSl" secondAttribute="bottom" constant="8" symbolic="YES" id="eSR-c0-qW4"/>
                                                 <constraint firstItem="nDf-Yq-SJg" firstAttribute="leading" secondItem="ZSI-i7-Lju" secondAttribute="trailing" constant="33" id="lCv-kW-9N1"/>
@@ -293,6 +301,7 @@
                                             <outlet property="daysField" destination="viM-2Z-RIf" id="lWb-b1-ow4"/>
                                             <outlet property="frequencyField" destination="fa3-Cu-TV8" id="Qxd-uj-FzG"/>
                                             <outlet property="nameField" destination="LvR-e1-MX3" id="ahr-lZ-TUq"/>
+                                            <outlet property="todayLabel" destination="3r4-uI-7TM" id="yu0-MA-Ua8"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -780,12 +789,12 @@
                                     <action selector="onSubmit:" destination="UNl-LC-5JL" eventType="touchUpInside" id="aQB-Gb-Euy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross.case" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ezk-qs-MaZ">
-                                <rect key="frame" x="123" y="125" width="168" height="122"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ezk-qs-MaZ">
+                                <rect key="frame" x="143" y="124.5" width="128" height="123"/>
                                 <color key="tintColor" red="0.15793994410000001" green="0.49418439959999999" blue="0.85712710290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="124" id="cWl-SX-A2S"/>
-                                    <constraint firstAttribute="width" constant="168" id="tTT-H5-zoG"/>
+                                    <constraint firstAttribute="width" constant="128" id="tTT-H5-zoG"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -1106,7 +1115,6 @@
         <image name="4f60305f48b01e05db6b53083abf71dd-1024" width="1024" height="1024"/>
         <image name="4f60305f48b01e05db6b53083abf71dd-83.5" width="83.5" height="83.5"/>
         <image name="arrowshape.turn.up.backward" catalog="system" width="128" height="106"/>
-        <image name="cross.case" catalog="system" width="128" height="98"/>
         <image name="cross.case.fill" catalog="system" width="128" height="98"/>
         <image name="person.3" catalog="system" width="128" height="62"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
@@ -1126,6 +1134,9 @@
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -13,6 +13,7 @@ class MedicationCell: UITableViewCell {
     @IBOutlet weak var nameField: UILabel!
     @IBOutlet weak var daysField: UILabel!
     @IBOutlet weak var frequencyField: UILabel!
+    @IBOutlet weak var todayLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

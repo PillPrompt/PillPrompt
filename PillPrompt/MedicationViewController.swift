@@ -70,7 +70,42 @@ class MedicationViewController: UIViewController, UITableViewDataSource, UITable
         cell.nameField.text = med["name"] as? String
         cell.daysField.text = med["days"] as? String
         cell.frequencyField.text = med["frequency"] as? String
-
+        
+        let date = Date()
+        let calendar = Calendar.current
+        let day = calendar.component(.weekday, from: date)
+        var today = String()
+        if (day == 1) {
+            today = "U"
+        }
+        else if (day == 2) {
+            today = "M"
+        }
+        else if (day == 3) {
+            today = "T"
+        }
+        else if (day == 4) {
+            today = "W"
+        }
+        else if (day == 5) {
+            today = "R"
+        }
+        else if (day == 6) {
+            today = "F"
+        }
+        else {
+            today = "S"
+        }
+        
+        let cell_days = med["days"]! as? String
+        
+        if (cell_days!.contains(today) == true) {
+            cell.todayLabel.text = "Today"
+            //print("\(cell_days) contains \(today)")
+        } else {
+            cell.todayLabel.text = ""
+        }
+        
         return cell
     }
     
