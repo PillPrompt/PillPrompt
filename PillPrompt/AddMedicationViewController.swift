@@ -67,6 +67,10 @@ class AddMedicationViewController: UIViewController {
         }
     }
     
+    @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
         freqencyField.text = Int(sender.value).description

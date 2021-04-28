@@ -173,6 +173,10 @@ class EditMedicationViewController: UIViewController {
         }
     }
     
+    @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

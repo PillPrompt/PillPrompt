@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PillPrompt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqe-Ih-9ee">
-                                <rect key="frame" x="49" y="305" width="316" height="63"/>
+                                <rect key="frame" x="49" y="335" width="316" height="63"/>
                                 <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="55"/>
-                                <color key="textColor" red="0.097270938899967227" green="0.70839152302775354" blue="0.70485671250136583" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.15793994410000001" green="0.49418439959999999" blue="0.85712710290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="27373-7-pills-transparent-image" translatesAutoresizingMaskIntoConstraints="NO" id="qux-oh-LnH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4f60305f48b01e05db6b53083abf71dd-83.5" translatesAutoresizingMaskIntoConstraints="NO" id="qux-oh-LnH">
                                 <rect key="frame" x="157" y="413" width="100" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="1UI-iv-3ME"/>
@@ -31,12 +31,12 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.14902269839999999" green="0.14901494979999999" blue="0.14901819829999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" systemColor="linkColor"/>
                         <constraints>
                             <constraint firstItem="vqe-Ih-9ee" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GMp-Yw-t0n"/>
                             <constraint firstItem="qux-oh-LnH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="esR-a8-fYI"/>
-                            <constraint firstItem="qux-oh-LnH" firstAttribute="top" secondItem="vqe-Ih-9ee" secondAttribute="bottom" constant="45" id="fPt-e5-4ou"/>
+                            <constraint firstItem="qux-oh-LnH" firstAttribute="top" secondItem="vqe-Ih-9ee" secondAttribute="bottom" constant="15" id="fPt-e5-4ou"/>
                             <constraint firstItem="qux-oh-LnH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pMr-Ff-0Y4"/>
                         </constraints>
                     </view>
@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="27373-7-pills-transparent-image" width="3500" height="2464"/>
+        <image name="4f60305f48b01e05db6b53083abf71dd-83.5" width="83.5" height="83.5"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -32,6 +32,7 @@ class SignUpViewController: UIViewController {
                 self.passwordField.text = nil
                 self.nameField.text = nil
                 self.emailField.text = nil
+                
             } else {
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
